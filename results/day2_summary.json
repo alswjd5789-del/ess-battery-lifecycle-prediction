@@ -1,0 +1,113 @@
+{
+  "best_model": "GBM",
+  "split": {
+    "train_b1": 28,
+    "valid_b1": 8,
+    "test_b2": 33,
+    "test_b3": 44
+  },
+  "target_mape": 9.1,
+  "results": {
+    "ElasticNet": {
+      "train_cv": {
+        "mape": 8.4704,
+        "r2": 0.6641
+      },
+      "valid_ho": {
+        "mape": 7.6377,
+        "r2": 0.8149,
+        "mae": 64.71
+      },
+      "test_b2": {
+        "mape": 50.8341,
+        "r2": -0.622,
+        "mae": 246.55
+      },
+      "test_b3": {
+        "mape": 18.1548,
+        "r2": -0.1076,
+        "mae": 227.32
+      },
+      "gap_train_valid": -0.8327,
+      "gap_valid_test": 43.1965,
+      "gap_target_test": 41.7341,
+      "gap_b2_b3": -32.6793,
+      "gap_target_test_b3": 9.0548
+    },
+    "GBM": {
+      "train_cv": {
+        "mape": 10.0715,
+        "r2": 0.3947
+      },
+      "valid_ho": {
+        "mape": 6.4056,
+        "r2": 0.8651,
+        "mae": 53.72
+      },
+      "test_b2": {
+        "mape": 41.9291,
+        "r2": -0.0754,
+        "mae": 203.05
+      },
+      "test_b3": {
+        "mape": 16.818,
+        "r2": -0.1726,
+        "mae": 218.67
+      },
+      "gap_train_valid": -3.6658,
+      "gap_valid_test": 35.5235,
+      "gap_target_test": 32.8291,
+      "gap_b2_b3": -25.1111,
+      "gap_target_test_b3": 7.718
+    },
+    "RF": {
+      "train_cv": {
+        "mape": 9.524,
+        "r2": 0.4907
+      },
+      "valid_ho": {
+        "mape": 9.2304,
+        "r2": 0.7484,
+        "mae": 77.47
+      },
+      "test_b2": {
+        "mape": 44.7754,
+        "r2": -0.1909,
+        "mae": 214.51
+      },
+      "test_b3": {
+        "mape": 16.2788,
+        "r2": -0.1232,
+        "mae": 211.34
+      },
+      "gap_train_valid": -0.2936,
+      "gap_valid_test": 35.545,
+      "gap_target_test": 35.6754,
+      "gap_b2_b3": -28.4966,
+      "gap_target_test_b3": 7.1788
+    }
+  },
+  "baseline": {
+    "train_cv": {
+      "mape": 14.6973,
+      "r2": 0.0
+    },
+    "valid_ho": {
+      "mape": 21.2625,
+      "r2": -0.0918
+    },
+    "test_b2": {
+      "mape": 62.5852,
+      "r2": -1.3848
+    },
+    "test_b3": {
+      "mape": 24.21,
+      "r2": -0.8324
+    },
+    "gap_train_valid": 6.5652,
+    "gap_valid_test": 41.3227,
+    "gap_target_test": 53.4852,
+    "gap_b2_b3": -38.3751,
+    "gap_target_test_b3": 15.11
+  }
+}

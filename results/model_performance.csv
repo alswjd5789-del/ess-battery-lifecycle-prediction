@@ -1,0 +1,5 @@
+model,train_cv_mape,valid_mape,test_b2_mape,test_b3_mape,gap_train_valid,gap_valid_test,gap_target_test,gap_b2_b3,gap_target_test_b3
+Baseline,14.70,21.26,62.59,24.21,+6.57,+41.32,+53.49,-38.38,+15.11
+ElasticNet,8.47,7.64,50.83,18.15,-0.83,+43.20,+41.73,-32.68,+9.05
+GBM,10.07,6.41,41.93,16.82,-3.67,+35.52,+32.83,-25.11,+7.72
+RF,9.52,9.23,44.78,16.28,-0.29,+35.54,+35.68,-28.50,+7.18
