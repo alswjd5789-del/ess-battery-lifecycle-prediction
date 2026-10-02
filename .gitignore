@@ -1,0 +1,25 @@
+# 가상환경
+venv/
+env/
+.venv/
+
+# 원시 데이터 (용량 문제)
+data/raw/
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter 체크포인트
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# 에디터
+.vscode/
+.idea/
+data/Q*.png
+*.pdf
+data/raw/
